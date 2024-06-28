@@ -1,17 +1,13 @@
-body{
-  text-align: center;
-  background-color: #FADCD9;
+#container {
+  height: 200px;
+  width: 300px;
+  background-color: #FFFDD0;
+  margin: 10px;
+
+}
+
+#random-number {
+  display: flex;
   justify-content: center;
-}
-
-#container{
-    height: 200px;
-    width: 300px;
-    background-color: #FFFDD0;
-    margin: 10px;
-    
-}
-
-#random{
-    justify-content: center;
+  align-items: center;
 }
