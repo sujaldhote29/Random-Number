@@ -1,13 +1,31 @@
+body, html {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
 #container {
   height: 200px;
-  width: 300px;
+  width: 200px;
   background-color: #FFFDD0;
   margin: 10px;
-
+  align-items: center;
 }
 
 #random-number {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+
+h1{
+  text-align: center;
+}
+
+
+button{
+  text-align: center;
   align-items: center;
 }
